@@ -37,5 +37,5 @@ bot.setup_middleware(SimpleMiddleware(0.5)) # bu botga qayta qayta yozmaslik uch
 
 if __name__ == '__main__':
     # bot.polling(none_stop=True)
-#     create_tables(db, OpenShopParser)
+    create_tables(db, OpenShopParser)
     bot.infinity_polling()
